@@ -31,7 +31,7 @@ class clicker implements Runnable {
 }
 
 public class PriorityThread {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
         clicker hi = new clicker(Thread.NORM_PRIORITY + 2);
 
